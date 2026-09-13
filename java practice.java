@@ -11,8 +11,7 @@ public class Main {
         q.add(58);
 
         q.poll();
-        q.remove();
-
+        q.remove();
         System.out.println(q.size());
     }
 }
