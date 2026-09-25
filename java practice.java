@@ -1,8 +1,8 @@
 1.import java.util.Scanner;
 import java.util.Queue;
 import java.util.LinkedList;
-
-public class Main {
+public class Main
+    {
     public static void main(String[] args) {
         Queue<Integer> q = new LinkedList<>();
 
@@ -11,7 +11,8 @@ public class Main {
         q.add(58);
 
         q.poll();
-        q.remove();
+        q.remove();
+
         System.out.println(q.size());
     }
 }
