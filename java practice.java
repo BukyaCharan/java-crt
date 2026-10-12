@@ -5,22 +5,14 @@ public class Main
     {
     public static void main(String[] args) {
         Queue<Integer> q = new LinkedList<>();
-
         q.add(34);
         q.add(345);
         q.add(58);
-
         q.poll();
         q.remove();
-
         System.out.println(q.size());
     }
 }
-
-
-
-
-
 
 
 2.import java.util.Scanner;
