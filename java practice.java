@@ -13,20 +13,15 @@ public class Main
         System.out.println(q.size());
     }
 }
-
-
 2.import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int n = sc.nextInt();
-
         while (n > 9) {
             int temp = n;
             int sum = 0;
-
             while (temp != 0) {
                 int r = temp % 10;
                 sum += r;
@@ -40,10 +35,6 @@ public class Main {
         sc.close();
     }
 }
-
-
-
-
 
 3.import java.util.*;
 
