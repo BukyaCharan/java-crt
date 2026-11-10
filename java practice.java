@@ -67,8 +67,6 @@ public class Main {
             ans[i] = x;
             i++;
         }
-
-        
-        System.out.println(Arrays.toString(ans));
+ System.out.println(Arrays.toString(ans));
     }
 }
